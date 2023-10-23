@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #F8FAFC;
+    background: transparent url(./assets/bg-image.svg) fixed no-repeat 0 0 / cover;
+}
+
+.text-base{
+    font-size: 1rem;
+}
+.label{
+    font-size: 0.875rem
+}
+
+.h-screen{
+    width: 100%;
+    margin: auto;
+}
+
+.h-200{
+    height: 200px;
+}
+
+@media screen and (min-width:980px){
+    .h-screen{
+        max-width: 1280px;
+    }
+    .w-60vw{
+        width:50vw
+    }
+}
+
+.rounded-card{
+    border-radius: 1.5rem;
+}
+.rounded-lg{
+    border-radius: 1rem;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+@media screen and (min-width:640px){
+    h2{
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:640px){
+    p{
+        font-size: 2rem;
+    }
+}
+
+input::placeholder{
+    color: #CDD5E0
+}
+
+button{
+    font-size: 1.25rem;
+    color: #4036A9;
+}
+
+select,
+option,
+textarea,
+textarea::placeholder{
+    font-size: 1rem !important;
+    color:#111729;
+}
