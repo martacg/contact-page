@@ -11,7 +11,7 @@ const Card = () => {
 
         <>
 
-        <img src="src/assets/contact-form-icon.svg" className="m-4"/>
+        <img src="dist/assets/contact-form-icon.svg" className="m-4"/>
 
         <div className="flex flex-col justify-center items-center h-screen">
 
