@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import logo from '../assets/contact-form-icon.svg'
+
 
 const Card = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -11,7 +13,7 @@ const Card = () => {
 
         <>
 
-        <img src="dist/assets/contact-form-icon.svg" className="m-4"/>
+        <img src={logo} className="m-4"/>
 
         <div className="flex flex-col justify-center items-center h-screen">
 
